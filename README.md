@@ -39,7 +39,7 @@ The 'variables' file is located at '/eplus_env/envs/eplus_models/demo_5z/learnin
 3. Create a new environment: Create a new environment in '/eplus_env/__init__.py' file.  This file sets the paths to: EnergyPlus, weather file, BCVTB, variables, IDF file, and specify the environment name.
 
 
-#### To Run
+### To Run
 See test.py
 1. Make the environment, env = gym.make('environment name')
 2. Reset the environment, env.reset()
